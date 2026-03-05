@@ -1,13 +1,59 @@
 <!DOCTYPE HTML> 
 <html lang = "pt-pt">
 <head>
+    <link rel="stylesheet" href="css/style.css">
     <meta charset = "UTF-8">
     <meta name = "viewport" content = "width=device-width, inicial-scale=1.0">
     <title>Sítio Felipe Oliveira</title>
-    <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-    <h1>Bem vindo, Mundo</h1>
-    <h2> Você está no site de Felipe Oliveira</h2>
+    <header class="navbar">
+        <nav id="nav-head"> 
+            <h3>Esse é uma site modelo, por enquanto</h3>
+            <ul class="nav-links">
+                <li><a href="#algo">Home </a></li>
+                <li><a href="#algo">Currículo</a></li>
+                <li><a href="#algo">Imagens</a></li>
+                <li><a href="#algo" id="bt-contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header> 
+    <main>
+        <section class="hero" >
+            <div class="hero-content" >
+                <h1> Bem vindo, mundo!</h1>
+                <p> Você está no site de Felipe Oliveira</p>
+                <a href="#Curriculo" id="bt-saibamais">Saiba Mais</a>
+            </div>
+        </section> 
+        <section id="sobre" class="sobre">
+            <div class="container-sobre">
+                <div class="sobre-img">
+                    <img src="assets/portrait.jpg" alt="Imagem Ilutrativa">
+                </div>
+                <div class="sobre-text">
+                    <h2>"Sobre mim"</h2>
+                    <p>
+                        Olá, eu sou <strong>Felipe Oliveira</strong>, tenho interesse por tecnologia e cultura.
+                    </p>
+                    <p>
+                        Estou aprendendo front end e dados.
+                    </p>
+                    <div class ="skills">
+                        <h3>Minhas Skills</h3>
+                        <ul>
+                            <li> Excell e SQL </li>
+                            <li> Análise de dados </li>
+                            <li> Git e GitHub </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>                    
+        </section>          
+    </main>
+    <footer>
+        <code id="code-id">Copyright (c) Felipe Oliveira</c></code>
+    </footer>
 </body>
 </html>
