@@ -88,7 +88,7 @@
 
 .container-sobre{
     display:flex; /* Ativa o modo de caixa flexível*/ 
-    flex-direction: row; /* Garante que os itens fiquem em linha */
+    flex-direction: row; /* Deixar os itens em linha */
     justify-content: space-between; 
     align-items: center;
     gap: 50px; /* Espaço entre a imagem e o texto*/
@@ -158,3 +158,29 @@
     justify-content: center;
     color:#999;
 }
+
+
+
+/* Para quando tela < 768px (tables e celulares)*/
+@media (max-width: 768px) {
+    .container-sobre{
+        flex-direction: column; /* muda linha para coluna*/
+        text-align: center;     /* Centraliza o texto*/
+    }   gap: 30px;              /* Diminui o espaço entre os elementos*/
+
+    .sobre-img{
+        justify-content: center;/* Centraliza a imagem horizontalmente */
+    }
+
+    .sobre-text{
+        text-align: center;     /* Centraliza texto*/
+    }
+
+    .hero-content h1{
+        font-size: 2.2rem;      /* Diminui o título*/
+    }
+
+    .nav-links{
+        display: none;          /* Esconder o menu */
+    }
+} 
