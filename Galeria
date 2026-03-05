@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name = "viewport" content = "width=device-width, inicial-scale=1.0">
+    <title>Galeria de Imagens</title>
+</head>
+
+<body>
+    <header>
+         <nav id="nav-head"> 
+            <h3>Esse é uma site modelo, por enquanto</h3>
+            <ul class="nav-links">
+                <li><a href="#algo">Home </a></li>
+                <li><a href="#algo">Currículo</a></li>
+                <li><a href="#algo">Galeria</a></li>
+                <li><a href="#algo" id="bt-contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+</body>
+
+
+
+</html>
