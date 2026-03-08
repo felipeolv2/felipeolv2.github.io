@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang = "pt-pt">
+<html lang = "pt-br">
 <head>
+    <link rel="icon" href="assets/favicon.png" type = "image/png">
     <meta charset = "UTF-8">
     <meta name = "viewport" content = "width=device-width, inicial-scale=1.0">
     <title>Minha Galeria</title>
@@ -25,15 +26,26 @@
         <p class="gallery__description">Um pouco das minhas criações ao longo dos anos</p>
 
         <div class = "gallery__grid">
-            <div class="galley__item"> 
-                <img src="#imagem1" alt="Descrição Imagem 1" class="gallery__image">
-                <div class="galley__overlay">
-                    <span>Fotografia-spam</span>
-                </div>
-                <figcaption>Descrição Figcaption</figcaption>
-            </div>
+            <figure> 
+                <img src="/assets/pic01.JPG" alt="Descrição Imagem 1" class="gallery__image">  
+                <figcaption>Estampa de Camiseta</figcaption>
+            </figure>
+            <figure>
+                <img src="/assets/pic02.jpg" alt="Descrição Imagem 1" class="gallery__image">
+                <figcaption>Retrato Artístico</figcaption>
+            </figure>
         </div>
     </main>
+
+    <footer>
+        <footer class="foot">
+            <div class="footer__socials">
+                <a href="https://www.felipeolv2.github.io" target="blank" class="footer_link" aria-label="Meu GitHub"><i>Meu GitHub</i></a>
+                <a href="https://www.linkedin.com/in/feliperibasdeoliveira/" target="blank" class="footer_link" aria-label="Meu linkedin"><i>Meu Linkedin</i></a>     
+                <p>&copy Felipe Oliveira</p>
+            </div>
+    </footer>    
+
 </body>
 
 </html>
